@@ -1,4 +1,12 @@
 Hi
 myself premchandran
 I have total 9 years of experience on IT and 4 year relavence experience in AWS Devops.
+<<<<<<< HEAD
 i coifdgdfgiming do devops experience, i have used to multiple devops tools like git, jenkins, docker, kubernetes, ansible and terraform and all our application were hosted on top of AWS cloud. so pretty much good knowldge on aws services like autoscaling, load balancing, code depoly, code pipeline, vpc, Lambda, etc. and also had a chance to work on CICD pipeline by writing declarating pipeline script for automating bulid and release process.
+=======
+coiming do devops experience, i have used to multiple devops tools like git, jenkins, docker, kubernetes, ansible and terraform and all our application were hosted on top of AWS cloud. so pretty much good knowldge on aws services like autoscaling, load balancing, code depoly, code pipeline, vpc, Lambda, etc. and also had a chance to work on CICD pipeline by writing declarating pipeline script for automating bulid and release process.
+comes to my pipeline, our source code is stored our github repositorty, once we do some commits then webhook automatically will tigger the jenkins pipeline and maven start buildup the code in artifactoy which stored in jenkins working directory. before maven come to picture, we are implementing sonarqube mainly forcheking the source code quality and bugs in code and vulnerabilities. as the qulity gate meteric we will decide whether we need to bulid the code or file build. once quality gate passed the it moved to bulid state and docker will convert the artifact to docker image and that image will push to nexus repository. we are using nexus mainly for storing the docker images, so we can pull that images and deploy in as a container on the kubernetes cluster.. Here we are using prometheus and grafana for monitoring all our applications.
+comes to my role and responsibility. 
+
+we are working agile 
+>>>>>>> pratice
